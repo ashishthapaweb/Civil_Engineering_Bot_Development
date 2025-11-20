@@ -8,5 +8,5 @@ def generate_prompt(user_query, retrieved_data):
     {'role':'system', 'content': 'You answer questions provided by the user in a direct manner.'},
     {'role':'user', 'content': prompt}]
     
-    
+    # print(f"The prompt sent to LLM is: \n {prompt}")
     return messages
