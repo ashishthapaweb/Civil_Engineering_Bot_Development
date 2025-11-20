@@ -1,6 +1,6 @@
-# RAG For Civil Engineers
+# Civil Engineering Bot Development
 
-Small RAG that turns a local PDF into embeddings with OpenAI, stores them in Chroma, and answers questions. There is a Streamlit UI (`app.py`) and the original script (`main.py`).
+This is RAG (Retrieval-Augmented Generation)-based tool that turns a local PDF into embeddings with OpenAI, stores them in Chroma, and answers questions. There is a Streamlit UI (`app.py`) and the original script (`main.py`).
 
 ## How it works
 - `ingestion/extract.py` pulls text from `knowledgebase/CV_Thapa.pdf`, cleans it, and caches a `.md` next to the PDF.
