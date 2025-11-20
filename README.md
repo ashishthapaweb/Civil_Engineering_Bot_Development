@@ -1,4 +1,4 @@
-# RAG Playground
+# RAG For Civil Engineers
 
 Small RAG that turns a local PDF into embeddings with OpenAI, stores them in Chroma, and answers questions. There is a Streamlit UI (`app.py`) and the original script (`main.py`).
 
