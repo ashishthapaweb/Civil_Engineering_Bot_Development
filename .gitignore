@@ -1,0 +1,50 @@
+# Virtual environment
+venv/
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.eggs/
+dist/
+build/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Chroma vector database
+chroma/
+
+# Cache directories
+cache/
+.tmp/
+.temp/
+
+# Logs
+logs/
+*.log
+
+# PyMuPDF temporary files
+*.xfe
+*.xfdf
+
+# Extracted or intermediate markdown files
+knowledgebase/*.md
+*.md.backup
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Misc
+*.swp
+*.swo
